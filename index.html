@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Form UI</title>
-</head>
-<body>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form UI</title>
+  </head>
+  <body>
+    <section class="form-main-wrapper">
+      <form class="inputs-wrapper">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="What should we call you?" />
+        <label for="email">Email</label>
+        <input type="text" id="email" value="john@doe.com" />
+        <span>Email is already taken</span>
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" placeholder="XXXXXX"/>
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="XXXXXX" />
+      <button>Update Profile</button>
+      </form>
+      <section id="profile-completenes-wrapper"></section>
+    </section>
+  </body>
 </html>
