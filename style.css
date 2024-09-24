@@ -86,6 +86,9 @@ span {
     width: 100px;
     height: 100px;
   }
+  span{
+    font-size: small;
+  }
   .profile-completeness-present > h2 {
     font-size: 30px;
   }
